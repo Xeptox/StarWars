@@ -1,0 +1,82 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Poller One", sans-serif;
+    background-image: url("../Images/sky.jpg");
+    background-attachment: fixed;
+    color: #eedb00;
+}
+
+header, footer {
+    background-color: rgba(68, 69, 67, 0.6);
+}
+
+header {
+    border-radius: 16px 16px 0 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0.5em 0;
+}
+nav {
+    position: fixed;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #eedb00;
+}
+
+nav li {
+    display: inline-block;
+    border: 2px solid #ffc500;
+    background-color: rgba(204, 3, 35, 0.8);
+    font-size: 1rem;
+    padding: 0.3em 0.6em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left {
+    float: left;
+    width: 25%;
+    margin: 0.3rem 1.2rem 0 0;
+}
+
+.left img {
+    width: 100%;
+    box-shadow: 0.6rem 0.6rem 0.6rem  gray;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    border: 1px solid #ffc500;
+    border-radius: 0 0 16px 16px;
+    margin: 0.3rem 0 0 0.6rem;
+}
+
+.far-galaxy {
+    font-size: 1.8rem;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    text-align: justify;
+}
+footer {
+    border-radius: 0 0 16px 16px;
+    clear: both;
+}
