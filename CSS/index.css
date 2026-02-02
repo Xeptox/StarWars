@@ -9,7 +9,7 @@
 
 body {
     font-family: "Poller One", sans-serif;
-    background-image: url("../Images/sky.jpg");
+    background-image: url("../sky.jpg");
     background-attachment: fixed;
     color: #eedb00;
 }
@@ -70,6 +70,10 @@ nav li {
     margin: 0.3rem 0 0 0.6rem;
 }
 
+.right img {
+    float: right;
+    margin: 0.5rem 1.4rem;
+}
 .far-galaxy {
     font-size: 1.8rem;
     letter-spacing: 0.1em;
