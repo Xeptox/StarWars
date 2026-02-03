@@ -64,16 +64,23 @@ nav li {
 
 .right {
     float: right;
-    width: 50%;
+    width: 45%;
     border: 1px solid #ffc500;
     border-radius: 0 0 16px 16px;
     margin: 0.3rem 0 0 0.6rem;
+    padding-left: 1.5em;
+    padding-bottom: 1em;
+
 }
 
 .right img {
-    float: right;
-    margin: 0.5rem 1.4rem;
+    width: 11em;
+    float: left;
+    margin: 0.5rem 3em;
+    border-radius: 25px;
+    box-shadow: 0.3rem 0.3rem 0.6rem #ffc500;
 }
+
 .far-galaxy {
     font-size: 1.8rem;
     letter-spacing: 0.1em;
