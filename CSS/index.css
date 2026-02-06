@@ -59,24 +59,25 @@ nav li {
 
 .left img {
     width: 100%;
-    box-shadow: 0.6rem 0.6rem 0.6rem  gray;
+    box-shadow: 0.6rem 0.6rem 0.6rem gray;
 }
 
 .right {
+    text-align: center;
     float: right;
-    width: 45%;
+    width: 55%;
     border: 1px solid #ffc500;
     border-radius: 0 0 16px 16px;
-    margin: 0.3rem 0 0 0.6rem;
-    padding-left: 1.5em;
-    padding-bottom: 1em;
-
+    font-size: 10px;
 }
 
+.right h2 {
+    font-size: 3rem;
+}
 .right img {
-    width: 11em;
+    width: 30%;
     float: left;
-    margin: 0.5rem 3em;
+    margin: calc(10% / 6);
     border-radius: 25px;
     box-shadow: 0.3rem 0.3rem 0.6rem #ffc500;
 }
@@ -88,6 +89,20 @@ nav li {
     text-align: justify;
 }
 footer {
+    height: 105px;
     border-radius: 0 0 16px 16px;
     clear: both;
+
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid #ffc500;
+    background-color: rgba(204, 3, 35, 0.8);
+    font-size: 1rem;
+    padding: 0.3em 0.6em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 18em;
+    align-self: center;
 }
